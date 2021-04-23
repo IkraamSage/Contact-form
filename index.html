@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="glassmorphic.css" />
+  </head>
+  <body>
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form
+      class="contact-form"
+      action="https://formspree.io/f/xvodglgo"
+      method="POST"
+    >
+      <!--Heading-->
+      <div><h1 id="heading">Contact us</h1></div>
+
+      <div>
+        <label for="name" class="contact-label"> Name:</label>
+        <input
+          class="contact-info"
+          type="text"
+          name="name"
+          placeholder="Full name"
+        />
+      </div>
+
+      <!---->
+      <div>
+        <label for="email" class="contact-label"> Your email:</label>
+        <input
+          class="contact-info"
+          type="email"
+          name="_replyto"
+          placeholder="eg: abcdef@gmail.com"
+        />
+      </div>
+      <!---Email-->
+      <div>
+        <label for="message" class="contact-label"> Your message:</label>
+
+        <input
+          class="contact-info"
+          name="message"
+          placeholder="type message here"
+        />
+
+        <label for="contact" class="contact-label"> Contact Number:</label>
+        <input
+          class="contact-info"
+          type="text"
+          name="contact"
+          placeholder="eg: 123 456 7890"
+        />
+      </div>
+
+      <!-- Button -->
+
+      <div><button id="button" type="submit">Send</button></div>
+    </form>
+  </body>
+</html>
